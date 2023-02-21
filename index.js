@@ -5,7 +5,7 @@ fetch("https://apitest-90no.onrender.com/data")
         json.forEach(student => {
             var content = `
             <div class="icon"><i class="bi bi-card-checklist"></i></div>
-            <h4 class="title"><a href="">${student.className}</a></h4>
+            <h4 class="title"><a href="">${student.name}</a></h4>
             <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
           `;
 
